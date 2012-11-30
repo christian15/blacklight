@@ -1,3 +1,186 @@
- p{
- 	color: red;
+body{
+ 	width: 800px;
+ 	margin: 0 auto;
+ 	background-image: url("../images/background.jpg");
  } 
+ 
+header{
+ 	background-color: white;
+ }
+ 
+ul{
+	width: 101.1%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+
+}
+
+.nav{
+	list-style-type: none;
+ 	float: left;
+ 	background-color: rgb(2,52,99);
+ 	width: 33%;
+ 	font-family: 'Audiowide', sans-serif;
+ }
+ 
+.body{
+ 	background: white;
+ 	background-color: rgba(255,255,255,0.80);
+ }
+ 
+ p,h1,h3,h4,h5{
+ 	margin-left: 5%;
+ 	padding-top: 5%;
+ }
+ 
+ p{
+ 	font-family: 'Electrolize', cursive;
+ }
+ 
+ h1{
+ 	font-family: 'Audiowide', cursive;
+ 	font-size: 200%;
+ }
+ 
+ h2{
+ 	padding-top: 2%;
+ 	padding-bottom: 1%;
+ 	font-size: 200%;
+ 	font-family: 'Audiowide', sans-serif;
+ }
+ 
+h4{
+ 	padding-top: 2%;
+ 	padding-bottom: 1%;
+ 	font-size: 150%;
+ 	font-family: 'Audiowide', sans-serif;
+ }
+ 
+ h3{
+ 	font-family: 'Audiowide', cursive;
+ 	font-size: 200%;
+ }
+ 
+ .intropara{
+ 	-moz-column-count: 3;
+ 	text-align: left;
+ 	margin-right: 5%;
+ }
+ 
+ #cta{
+ 	padding-top: 2%;
+ 	text-align: center;
+ }
+ 
+ .quotebutton{
+ 	border: 2px solid green;
+ 	border-radius: 10px;
+ 	width: 200px;
+ 	margin-left: 35%;
+ 	margin-top: 5%;
+ 	margin-bottom: 5%;
+ 	background-image: url("../images/buttonbackground.jpg");
+ 	background-position: center;
+ }
+ 
+ ol{
+ 	margin: 2.5%;
+ 	font-family: 'Electrolize', cursive;
+
+ }
+
+ a{
+ 	display: block;
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 2%;
+ }
+ 
+ 
+ a:hover{
+ 	background: rgb(0,231,250);
+ 	color: rgb(2,52,99);
+ 	border-color: rgb(0,231,250);
+ }
+ 
+ a:active{
+ 	background: black;
+ 	color: rgb(0,231,250);
+ }
+ 
+ a:visited{
+ 	background: green;
+ }
+ 
+ section{
+ 	clear: both;
+ }
+ 
+ #ownerimg{
+ 	margin-top: 15px;
+ 	width: 50%;
+ 	border:2px solid black;
+ 	box-shadow: 2px 4px 10px black;
+ 	border-radius: 10px;
+ 	margin-left: 25%;
+ 	margin-top: 5%;
+ }
+ 
+ .ctabody{
+ 	background-color: rgba(0,0,0,0.95);
+ 	color: white;
+ 	border: 2px rgba(255,255,255,0.80) solid; 
+ 	border-radius: 10px;
+ 	font-family: 'Electrolize', sans-serif;
+ 	text-align: center;
+ }
+ 
+ h2{
+ 	text-align: center;
+ }
+ 
+ .gallery{
+ 	width: 100%;
+ 	overflow: hidden;
+ }
+ .galleryimg{
+ 	float: left;
+ }
+ 
+ .imglink{
+  	display: block;
+ 	height: 100px;
+ 	width: 130px;
+ 	margin-left: 10%;
+ 	padding: 0px;
+ 	border: 4px solid white;
+ }
+ 
+ .imglink2{
+ 	display: block;
+ 	height: 120px;
+ 	width: 100px;
+ 	margin-left: 10%;
+ 	margin-bottom: 10%;
+ 	padding: 0px;
+ 	border: 4px solid white;
+ }
+ 
+ footer{
+ 	background-color: black;
+ 	color: white;
+ }
+ 
+ article{
+ 	padding-bottom: 20px;
+ }
+ 
+ #footer{
+ 	text-align: center;
+ 	padding: 2%;
+ 	margin: 2%;
+ }
+
+ 
+ 
