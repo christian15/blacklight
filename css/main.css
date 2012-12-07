@@ -1,17 +1,23 @@
 body{
- 	width: 800px;
+ 	width: 50%;
  	margin: 0 auto;
  	background-image: url("../images/background.jpg");
+ 	background-attachment: fixed;
  } 
  
 header{
  	background-color: white;
  }
  
+.bplogo{
+	width: 15%;
+	height: 15%;
+}
+ 
 ul{
 	width: 101.1%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
 	text-align: center;
 
 }
@@ -30,17 +36,21 @@ ul{
  }
  
  p,h1,h3,h4,h5{
- 	margin-left: 5%;
- 	padding-top: 5%;
+ 	text-align: center;
  }
  
  p{
  	font-family: 'Electrolize', cursive;
+ 	margin-left: 5%;
+ 	padding-top: 5%;
+
  }
  
  h1{
  	font-family: 'Audiowide', cursive;
  	font-size: 200%;
+ 	text-align: center;
+
  }
  
  h2{
@@ -76,7 +86,7 @@ h4{
  .quotebutton{
  	border: 2px solid green;
  	border-radius: 10px;
- 	width: 200px;
+ 	width: 28%;
  	margin-left: 35%;
  	margin-top: 5%;
  	margin-bottom: 5%;
@@ -118,7 +128,6 @@ h4{
  }
  
  #ownerimg{
- 	margin-top: 15px;
  	width: 50%;
  	border:2px solid black;
  	box-shadow: 2px 4px 10px black;
@@ -173,7 +182,7 @@ h4{
  }
  
  article{
- 	padding-bottom: 20px;
+ 	padding-bottom: 5%;
  }
  
  #footer{
