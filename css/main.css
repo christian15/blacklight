@@ -1,5 +1,5 @@
 body{
- 	width: 50%;
+ 	width: 60%;
  	margin: 0 auto;
  	background-image: url("../images/background.jpg");
  	background-attachment: fixed;
@@ -143,6 +143,7 @@ h4{
  	border-radius: 10px;
  	font-family: 'Electrolize', sans-serif;
  	text-align: center;
+ 	font-size: 100%;
  }
  
  h2{
@@ -191,5 +192,60 @@ h4{
  	margin: 2%;
  }
 
+ @media screen and (min-width: 668px) and (max-width: 859px){
+	body{
+		width: 80%;
+		font-size: 90%;
+	} 
+	
+	header{
+		width: 100%;
+	}	 
+
+ }
  
+  @media screen and (min-width: 380px) and (max-width: 667px){
+  	body{ 
+  	    width: 100%;
+  	    border: 5px dotted rgb(2,52,99);
+  	    font-size: 80%;
+
+  	}
+  	header{
+		width: 100%;
+	}	
+	
+	.intropara{
+		margin-right: 2%;
+		-moz-column-count: 2;
+
+	}
+	
+  }
+  
+  @media screen and (max-width: 379px){
+	body{
+		width: 100%;
+		font-size: 70%;
+	}
+
+	header{
+		width: 100%;
+	}	
+	
+	.intropara{
+		margin-right: 2%;
+		-moz-column-count: 1;
+
+	}
+	
+	aside{
+		display: none;
+	}
+	
+	.ctabody{
+		font-size: 80%;
+	}
+}
+
  
