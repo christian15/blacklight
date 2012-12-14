@@ -186,6 +186,98 @@ h4{
  	padding-bottom: 5%;
  }
  
+ .prices{
+ 	background: white;
+ 	background-color: rgba(255,255,255,0.80);
+ }
+ 
+ table{
+ 	border-collapse: collapse;
+ 	border: 1px solid black;
+ 	margin: 0 auto;
+ }
+ 
+ td{
+ 	border: 1px solid black;
+ 	padding: 0.5em;
+ }
+ 
+ th{
+ 	text-align: left;
+ 	background-color: #999;
+ 	color: #fff;
+ 	padding: 0.5em;
+ 	background-color: rgb(2,52,99);
+ }
+ 
+ .odd{
+ 	background-color: rgba(0,231,250, .20);
+ }
+ 
+ form{
+ 	background-color: rgba(255,255,255,0.80);
+ 	padding-top: 2%;
+ }
+ 
+ #formcaption{
+ 	width: 80%;
+ 	margin-left: 10%;
+ }
+ 
+ label{
+  margin-left: 10%;
+  font-family: 'Electrolize', cursive;
+
+ }
+
+ input{
+ 	text-align: left;
+ 	margin: 0% 3% 2% 10%;
+ 	width: 80%;
+ }
+ input:hover{
+ 	background-color: rgba(255,255,255,0.80);
+ }
+ 
+ input:focus{
+ 	 background-color: rgba(2,52,99, .90);
+	 color: white;
+ }
+ 
+ textarea{
+ 	margin: 0% 3% 2% 10%;
+	width: 80%;
+ }
+ 
+ textarea:hover{
+ 	background-color: rgba(255,255,255,0.80);
+ }
+ 
+ textarea:focus{
+ 	 background-color: rgba(2,52,99, .90);
+	 color: white;
+ }
+ 
+ select{
+ 	margin-left: 10%;
+ 	margin-bottom: 2%;
+ }
+ 
+ button{
+ 	margin-left: 10%;
+ }
+ 
+ button:hover{
+	background-color: gray; 
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+button:active{
+	background-color: green;
+	border: 1px solid black;
+	border-radius: 5px;	
+}
  #footer{
  	text-align: center;
  	padding: 2%;
